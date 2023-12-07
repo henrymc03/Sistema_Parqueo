@@ -1,0 +1,19 @@
+
+<!-- Navigation-->
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/">SMART PARKING CR</a>
+        <div class="navbar-nav ml-auto justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <!-- <a class="nav-link text-white" routerLink="/Login">Enter</a> -->
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0 xs-auto">
+                    <li class="nav-item"><a class="nav-link" id="formP" routerLink="{{'/Principal'+ role}}">{{role}}</a></li>
+                    <li class="nav-item"><a class="nav-link" id="loginId" (click)="openDialog()">{{email}}</a></li>
+                    <li class="nav-item"><a class="nav-link" *ngIf="authService.isLoggedIn$ | async" (click)="logout()" id="logoutId">Log out</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>

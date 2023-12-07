@@ -1,0 +1,408 @@
+header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("/assets/pl.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+header.masthead .masthead-subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+header.masthead .masthead-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (min-width: 768px) {
+    header.masthead {
+        padding-top: 17rem;
+        padding-bottom: 12.5rem;
+    }
+
+    header.masthead .masthead-subheading {
+        font-size: 2.25rem;
+        font-style: italic;
+        line-height: 2.25rem;
+        margin-bottom: 2rem;
+    }
+
+    header.masthead .masthead-heading {
+        font-size: 4.5rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+        margin-bottom: 4rem;
+    }
+}
+
+.page-section {
+    padding: 6rem 0;
+}
+
+
+.page-section1 {
+    padding: 6rem 0;
+    background-image: url("/assets/pl.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.page-section h2.section-heading,
+.page-section .section-heading.h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.page-section h3.section-subheading,
+.page-section .section-subheading.h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+    section {
+        padding: 9rem 0;
+    }
+}
+
+
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+
+    .container-sm,
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1320px;
+    }
+}
+
+
+.text-center {
+    text-align: center !important;
+}
+
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #6c757d !important;
+}
+
+.text-muted1 {
+    --bs-text-opacity: 1;
+    color: #ffffff !important;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+}
+
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+.my-3 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+
+
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.timeline:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    content: "";
+    background-color: #e9ecef;
+}
+
+.timeline>li {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 50px;
+}
+
+.timeline>li:after,
+.timeline>li:before {
+    display: table;
+    content: " ";
+}
+
+.timeline>li:after {
+    clear: both;
+}
+
+.timeline>li .timeline-panel {
+    position: relative;
+    float: right;
+    width: 100%;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+.timeline>li .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li .timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li .timeline-image {
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    text-align: center;
+    color: white;
+    border: 7px solid #e9ecef;
+    border-radius: 100%;
+    background-color: #ffc800;
+}
+
+.timeline>li .timeline-image h4,
+.timeline>li .timeline-image .h4 {
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 12px;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel {
+    float: right;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li:last-child {
+    margin-bottom: 0;
+}
+
+.timeline .timeline-heading h4,
+.timeline .timeline-heading .h4 {
+    margin-top: 0;
+    color: inherit;
+}
+
+.timeline .timeline-heading h4.subheading,
+.timeline .timeline-heading .subheading.h4 {
+    text-transform: none;
+}
+
+.timeline .timeline-body>ul,
+.timeline .timeline-body>p {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .timeline:before {
+        left: 50%;
+    }
+
+    .timeline>li {
+        min-height: 100px;
+        margin-bottom: 100px;
+    }
+
+    .timeline>li .timeline-panel {
+        float: left;
+        width: 41%;
+        padding: 0 20px 20px 30px;
+        text-align: right;
+    }
+
+    .timeline>li .timeline-image {
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+    }
+
+    .timeline>li .timeline-image h4,
+    .timeline>li .timeline-image .h4 {
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 16px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        float: right;
+        padding: 0 30px 20px 20px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .timeline>li {
+        min-height: 150px;
+    }
+
+    .timeline>li .timeline-panel {
+        padding: 0 20px 20px;
+    }
+
+    .timeline>li .timeline-image {
+        width: 150px;
+        height: 150px;
+        margin-left: -75px;
+    }
+
+    .timeline>li .timeline-image h4,
+    .timeline>li .timeline-image .h4 {
+        font-size: 18px;
+        line-height: 26px;
+        margin-top: 30px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 20px 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .timeline>li {
+        min-height: 170px;
+    }
+
+    .timeline>li .timeline-panel {
+        padding: 0 20px 20px 100px;
+    }
+
+    .timeline>li .timeline-image {
+        width: 170px;
+        height: 170px;
+        margin-left: -85px;
+    }
+
+    .timeline>li .timeline-image h4,
+    .timeline>li .timeline-image .h4 {
+        margin-top: 40px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 100px 20px 20px;
+    }
+}

@@ -1,0 +1,67 @@
+<app-navbar></app-navbar>
+
+<section class="page-section" id="portfolio">
+  <div class="container">
+    
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">Profile</h2>
+      <h3 class="section-subheading text-muted">
+        Welcome {{namePerfil}}
+      </h3>
+    </div>
+    <div class="row">
+
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="portfolio-item">
+          <a class="portfolio-link" data-bs-toggle="modal" routerLink="/VehicleClientUser">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="assets/car.jpg" alt="..." />
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">Vehicles</div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="portfolio-item">
+          <a class="portfolio-link" data-bs-toggle="modal" routerLink="/ReservationClient">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="assets/reserved.jpg" alt="..." />
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">Reservation</div>
+          </div>
+        </div>
+      </div> 
+
+
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="portfolio-item">
+          <a class="portfolio-link" data-bs-toggle="modal" routerLink="/perfil-update">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="assets/perfil.jpg" alt="..." />
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">Profile</div>
+          </div>
+        </div>
+      </div> 
+    </div>
+      
+  </div>
+
+</section>
